@@ -1,7 +1,9 @@
 #!/bin/bash
 
+PARAM=$1
+
 ssid=$(iwgetid -r)
-if [[ "$ssid" == "Galaxy S108610" ]]; then
+if [[ "$ssid" == "Galaxy S108610" && "$PARAM" != "force" ]]; then
 	exit 1
 fi
 
