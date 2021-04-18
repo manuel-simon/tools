@@ -1,0 +1,11 @@
+[Unit]
+Description=Run background webcam setting job
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /home/manuel/git/ms-git/webcam-background.sh
+User=manuel
+Group=manuel
+Nice=19
