@@ -3,7 +3,7 @@
 PARAM=$1
 
 ssid=$(iwgetid -r)
-if [[ "$ssid" == "Galaxy S108610" && "$PARAM" != "force" ]]; then
+if [[ "$ssid" == "AndroidAP_4347" && "$PARAM" != "force" ]]; then
 	exit 1
 fi
 
