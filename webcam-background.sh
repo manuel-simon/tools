@@ -8,6 +8,6 @@ if [[ "$ssid" == "AndroidAP_4347" && "$PARAM" != "force" ]]; then
 fi
 
 export DISPLAY=:0
-wget -O ~/.background "https://www.foto-webcam.eu//webcam/freimann/current/1920.jpg"  > /dev/null
+wget -O ~/.background "https://www.foto-webcam.eu/webcam/tum-olympiapark/current/1920.jpg"  > /dev/null
 feh --bg-scale ~/.background
 
